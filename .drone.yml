@@ -84,4 +84,13 @@ depends_on:
 - hello-on-amd64
 
 
+---
+kind: pipeline
+name: test
+
+steps:
+- name: frontend
+  image: node
+  commands:
+  - test.sh
 
