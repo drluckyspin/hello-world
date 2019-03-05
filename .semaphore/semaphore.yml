@@ -24,7 +24,7 @@ blocks:
       - name: Smoke
         commands:
           - checkout
-          - echo "make smoke"
+          - ./test.sh
   - name: "Unit tests"
     task:
       jobs:
